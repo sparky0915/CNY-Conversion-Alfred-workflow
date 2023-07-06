@@ -4,7 +4,11 @@
 # 人民币从小写（阿拉伯数字）转换为大写（中文数字大写）Workflow
 
 这是一个用Python 3编写的Alfred Workflow，旨在帮助你将人民币从小写（阿拉伯数字）转换为大写（中文数字大写），可识别并忽略千分位(,)分隔符。
-![Imgur](https://imgur.com/9Zp2tp6.png)
+
+## 更新记录
+
+v1.1 增加对“万”、“亿”的识别
+![Imgur](https://imgur.com/TfO5km1.png)
 
 ## 安装
 
