@@ -14,7 +14,7 @@ v1.1 增加对“万”、“亿”的识别
 
 首先，确保你已经安装了以下要求：
 
-- [Python 3](https://www.python.org/downloads/)：用于运行密码生成脚本 - 新版本的macOS自带，如果无法运行，请安装Xcode Command Line Tools。
+- [Python 3](https://www.python.org/downloads/)：如果无法运行，请安装Xcode Command Line Tools。
 - [Alfred](https://www.alfredapp.com/)：用于执行工作流。
 
 接下来，按照以下步骤进行安装：
