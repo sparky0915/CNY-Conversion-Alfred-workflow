@@ -5,10 +5,20 @@
 
 这是一个用Python 3编写的Alfred Workflow，旨在帮助你将人民币从小写（阿拉伯数字）转换为大写（中文数字大写），可识别并忽略千分位(,)分隔符。
 
-## 更新记录
+## 亮点
 
-v1.1 增加对“万”、“亿”的识别
-![Imgur](https://imgur.com/TfO5km1.png)
+相比一般的 Workflow ，亮点在于：
+
+1. 自动识别“万”、“亿”并转换。
+    ![Imgur](https://imgur.com/TfO5km1.png)
+3. 自动识别并忽略千分位符。
+    ![Imgur](https://imgur.com/6B6UWIa.png)
+5. 如果没有角分，自动添加“整”
+    ![Imgur](https://imgur.com/cStBsp6.png)
+    ![Imgur](https://imgur.com/QRYMDSR.png)
+7. 如果结果以“壹拾”开头，自动去掉“壹”，符合中文习惯
+    ![Imgur](https://imgur.com/S4oXHb8.png)
+9. 使用特殊方法消除 float 函数导致的四舍五入不精确的问题。
 
 ## 安装
 
